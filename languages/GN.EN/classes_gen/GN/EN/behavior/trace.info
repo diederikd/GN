@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="ActType_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.ActType_BehaviorDescriptor" />
+    </file>
+    <file name="AdditionSubstractionRule_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.AdditionSubstractionRule_BehaviorDescriptor" />
+    </file>
+    <file name="Addition_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.Addition_BehaviorDescriptor" />
+    </file>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="9,0,154,0" name="GN.EN.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="BinaryFactType_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.BinaryFactType_BehaviorDescriptor" />
+    </file>
+    <file name="CalculationExpression_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.CalculationExpression_BehaviorDescriptor" />
+    </file>
+    <file name="Characteristic_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.Characteristic_BehaviorDescriptor" />
+    </file>
+    <file name="ClaimDuty_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.ClaimDuty_BehaviorDescriptor" />
+    </file>
+    <file name="ClassifyAssertionAsFact_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.ClassifyAssertionAsFact_BehaviorDescriptor" />
+    </file>
+    <file name="Comparision_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.Comparision_BehaviorDescriptor" />
+    </file>
+    <file name="Concept_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="GN.EN.behavior.Concept_BehaviorDescriptor" />
+    </file>
+    <file name="Condition_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.behavior.Condition_BehaviorDescriptor" />
+    </file>
+    <file name="Context_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="GN.EN.behavior.Context_BehaviorDescriptor" />
+    </file>
+    <file name="DerivationRule_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.DerivationRule_BehaviorDescriptor" />
+    </file>
+    <file name="DisabilityImmunity_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.DisabilityImmunity_BehaviorDescriptor" />
+    </file>
+    <file name="Divide_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.Divide_BehaviorDescriptor" />
+    </file>
+    <file name="DutyClaim_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.DutyClaim_BehaviorDescriptor" />
+    </file>
+    <file name="EquationCondition_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.EquationCondition_BehaviorDescriptor" />
+    </file>
+    <file name="Equation_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.Equation_BehaviorDescriptor" />
+    </file>
+    <file name="EventRule_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.EventRule_BehaviorDescriptor" />
+    </file>
+    <file name="EventType_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.EventType_BehaviorDescriptor" />
+    </file>
+    <file name="Expression_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.behavior.Expression_BehaviorDescriptor" />
+    </file>
+    <file name="FactCondition_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.FactCondition_BehaviorDescriptor" />
+    </file>
+    <file name="FactInProduct_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.behavior.FactInProduct_BehaviorDescriptor" />
+    </file>
+    <file name="FactRoleRef_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.FactRoleRef_BehaviorDescriptor" />
+    </file>
+    <file name="FactRole_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.FactRole_BehaviorDescriptor" />
+    </file>
+    <file name="FactType_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.FactType_BehaviorDescriptor" />
+    </file>
+    <file name="FactValue_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.FactValue_BehaviorDescriptor" />
+    </file>
+    <file name="Fact_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.Fact_BehaviorDescriptor" />
+    </file>
+    <file name="GNAmount_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.GNAmount_BehaviorDescriptor" />
+    </file>
+    <file name="GNBoolean_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.GNBoolean_BehaviorDescriptor" />
+    </file>
+    <file name="GNDateTime_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.GNDateTime_BehaviorDescriptor" />
+    </file>
+    <file name="GNDate_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.GNDate_BehaviorDescriptor" />
+    </file>
+    <file name="GNDouble_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.GNDouble_BehaviorDescriptor" />
+    </file>
+    <file name="GNInt_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.GNInt_BehaviorDescriptor" />
+    </file>
+    <file name="GNMonth_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.GNMonth_BehaviorDescriptor" />
+    </file>
+    <file name="GNPeriod_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.GNPeriod_BehaviorDescriptor" />
+    </file>
+    <file name="GNString_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.GNString_BehaviorDescriptor" />
+    </file>
+    <file name="GNType_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.behavior.GNType_BehaviorDescriptor" />
+    </file>
+    <file name="GNVariable_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.GNVariable_BehaviorDescriptor" />
+    </file>
+    <file name="GNYear_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.GNYear_BehaviorDescriptor" />
+    </file>
+    <file name="ImmunityDisability_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.ImmunityDisability_BehaviorDescriptor" />
+    </file>
+    <file name="IndividualNounConcept_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.IndividualNounConcept_BehaviorDescriptor" />
+    </file>
+    <file name="IndividualRoleRef_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.IndividualRoleRef_BehaviorDescriptor" />
+    </file>
+    <file name="IndividualRole_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.IndividualRole_BehaviorDescriptor" />
+    </file>
+    <file name="InstantAct_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.InstantAct_BehaviorDescriptor" />
+    </file>
+    <file name="IntegerValue_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.IntegerValue_BehaviorDescriptor" />
+    </file>
+    <file name="InteractionContext_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.behavior.InteractionContext_BehaviorDescriptor" />
+    </file>
+    <file name="IntervalAct_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.IntervalAct_BehaviorDescriptor" />
+    </file>
+    <file name="IsIndividualOf_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.IsIndividualOf_BehaviorDescriptor" />
+    </file>
+    <file name="LargerThan_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.LargerThan_BehaviorDescriptor" />
+    </file>
+    <file name="LegalContext_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.behavior.LegalContext_BehaviorDescriptor" />
+    </file>
+    <file name="LiabilityPower_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.LiabilityPower_BehaviorDescriptor" />
+    </file>
+    <file name="Modaloperator_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.behavior.Modaloperator_BehaviorDescriptor" />
+    </file>
+    <file name="Multiplication_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.Multiplication_BehaviorDescriptor" />
+    </file>
+    <file name="N_Ary_FactType_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.N_Ary_FactType_BehaviorDescriptor" />
+    </file>
+    <file name="NoRightPrivilege_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.NoRightPrivilege_BehaviorDescriptor" />
+    </file>
+    <file name="Norm_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.Norm_BehaviorDescriptor" />
+    </file>
+    <file name="ObjectRole_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.ObjectRole_BehaviorDescriptor" />
+    </file>
+    <file name="Object_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.Object_BehaviorDescriptor" />
+    </file>
+    <file name="ParameterTable_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.ParameterTable_BehaviorDescriptor" />
+    </file>
+    <file name="PowerLiability_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.PowerLiability_BehaviorDescriptor" />
+    </file>
+    <file name="PrivilegeNoRight_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.PrivilegeNoRight_BehaviorDescriptor" />
+    </file>
+    <file name="ProductInService_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.behavior.ProductInService_BehaviorDescriptor" />
+    </file>
+    <file name="Product_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="GN.EN.behavior.Product_BehaviorDescriptor" />
+    </file>
+    <file name="Proposition_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.Proposition_BehaviorDescriptor" />
+    </file>
+    <file name="ReferenceContext_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.ReferenceContext_BehaviorDescriptor" />
+    </file>
+    <file name="RelationExists_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.RelationExists_BehaviorDescriptor" />
+    </file>
+    <file name="RoleValue_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.RoleValue_BehaviorDescriptor" />
+    </file>
+    <file name="Role_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.behavior.Role_BehaviorDescriptor" />
+    </file>
+    <file name="Rule_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="GN.EN.behavior.Rule_BehaviorDescriptor" />
+    </file>
+    <file name="Service_BehaviorDescriptor.java">
+      <unit at="10,0,21,0" name="GN.EN.behavior.Service_BehaviorDescriptor" />
+    </file>
+    <file name="SmallerThan_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.SmallerThan_BehaviorDescriptor" />
+    </file>
+    <file name="SpecialisationRule_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.SpecialisationRule_BehaviorDescriptor" />
+    </file>
+    <file name="StringValue_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.StringValue_BehaviorDescriptor" />
+    </file>
+    <file name="SubjectRole_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.SubjectRole_BehaviorDescriptor" />
+    </file>
+    <file name="Subject_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.Subject_BehaviorDescriptor" />
+    </file>
+    <file name="Substraction_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.Substraction_BehaviorDescriptor" />
+    </file>
+    <file name="Thing_BehaviorDescriptor.java">
+      <unit at="6,0,8,0" name="GN.EN.behavior.Thing_BehaviorDescriptor" />
+    </file>
+    <file name="TypeOfAct_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.behavior.TypeOfAct_BehaviorDescriptor" />
+    </file>
+    <file name="UniqueConstraint_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.UniqueConstraint_BehaviorDescriptor" />
+    </file>
+    <file name="Value_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.Value_BehaviorDescriptor" />
+    </file>
+    <file name="VariableDefinition_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.behavior.VariableDefinition_BehaviorDescriptor" />
+    </file>
+    <file name="VariableReference_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.VariableReference_BehaviorDescriptor" />
+    </file>
+    <file name="VariableRole_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.behavior.VariableRole_BehaviorDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:ff49b512-10c2-4d79-ac33-b7c7ac29b60e(GN.EN.behavior)/6519303206953140101">
+    <file name="ParameterTable_Behavior.java">
+      <node id="6519303206953140101" at="8,0,10,0" concept="0" trace="init#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="6519303206953140103" at="8,43,8,43" />
+      <scope id="6519303206953140101" at="8,0,10,0">
+        <var name="thisNode" id="6519303206953140101" />
+      </scope>
+      <unit id="6519303206953140101" at="7,0,11,0" name="GN.EN.behavior.ParameterTable_Behavior" />
+    </file>
+  </root>
+</debug-info>
+

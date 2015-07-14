@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="GN.EN.DateTime.behavior.AbsoluteInterval_BehaviorDescriptor" file="AbsoluteInterval_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.Interval_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.AbsoluteTimeConcept_BehaviorDescriptor" file="AbsoluteTimeConcept_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.TimeConcept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.AfterInstant_BehaviorDescriptor" file="AfterInstant_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.InstantTiming_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.AfterInterval_BehaviorDescriptor" file="AfterInterval_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.IntervalTiming_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.After_BehaviorDescriptor" file="After_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.TemporalExpression_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.BeforeInstant_BehaviorDescriptor" file="BeforeInstant_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.InstantTiming_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.BeforeInterval_BehaviorDescriptor" file="BeforeInterval_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.IntervalTiming_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Before_BehaviorDescriptor" file="Before_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.TemporalExpression_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.AbsoluteInterval_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.AfterInstant_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.AfterInterval_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.After_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.BeforeInstant_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.BeforeInterval_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.Before_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.Between_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.DateTime_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.DateValue_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.DayValue_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.Days_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.Duration_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.During_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.Equal_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.Friday_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.HourValue_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.Hours_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.InstantDateValue_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.InstantVariable_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.IntervalVariable_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.IsLongerThanOrEqualTo_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.IsLongerThan_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.IsShorterThanOrEqualTo_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.IsShorterThan_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.IsTheSameInstantAs_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.MinuteValue_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.Minutes_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.Monday_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.MonthValue_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.Months_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.Now_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.Saturday_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.SecondValue_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.Seconds_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.Sunday_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.Thursday_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.TimeValue_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.Today_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.Tuesday_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.Wednesday_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.YearValue_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.DateTime.behavior.Years_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Between_BehaviorDescriptor" file="Between_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.InstantOperators_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.DateTimeOperands_BehaviorDescriptor" file="DateTimeOperands_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.DateTime_BehaviorDescriptor" file="DateTime_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.Instant_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.DateValue_BehaviorDescriptor" file="DateValue_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Value_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.DayOfWeek_BehaviorDescriptor" file="DayOfWeek_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.DayValue_BehaviorDescriptor" file="DayValue_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Value_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Days_BehaviorDescriptor" file="Days_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.TimeUnit_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Duration_BehaviorDescriptor" file="Duration_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.RelativeTimeConcept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.During_BehaviorDescriptor" file="During_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.IntervalTiming_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Equal_BehaviorDescriptor" file="Equal_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.TemporalExpression_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Friday_BehaviorDescriptor" file="Friday_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.DayOfWeek_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.HourValue_BehaviorDescriptor" file="HourValue_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Value_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Hours_BehaviorDescriptor" file="Hours_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.TimeUnit_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.InstantDateValue_BehaviorDescriptor" file="InstantDateValue_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.Instant_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.InstantOperators_BehaviorDescriptor" file="InstantOperators_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.TemporalExpression_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.InstantTiming_BehaviorDescriptor" file="InstantTiming_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.Timing_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.InstantVariable_BehaviorDescriptor" file="InstantVariable_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.Instant_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Instant_BehaviorDescriptor" file="Instant_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.AbsoluteTimeConcept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.IntervalCondition_BehaviorDescriptor" file="IntervalCondition_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.TimeCondition_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.IntervalTiming_BehaviorDescriptor" file="IntervalTiming_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.Timing_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.IntervalVariable_BehaviorDescriptor" file="IntervalVariable_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.Interval_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Interval_BehaviorDescriptor" file="Interval_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.AbsoluteTimeConcept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.IsLongerThanOrEqualTo_BehaviorDescriptor" file="IsLongerThanOrEqualTo_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.IntervalCondition_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.IsLongerThan_BehaviorDescriptor" file="IsLongerThan_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.IntervalCondition_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.IsShorterThanOrEqualTo_BehaviorDescriptor" file="IsShorterThanOrEqualTo_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.IntervalCondition_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.IsShorterThan_BehaviorDescriptor" file="IsShorterThan_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.IntervalCondition_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.IsTheSameInstantAs_BehaviorDescriptor" file="IsTheSameInstantAs_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.InstantOperators_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.MinuteValue_BehaviorDescriptor" file="MinuteValue_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Value_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Minutes_BehaviorDescriptor" file="Minutes_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.TimeUnit_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Monday_BehaviorDescriptor" file="Monday_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.DayOfWeek_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.MonthValue_BehaviorDescriptor" file="MonthValue_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Value_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Months_BehaviorDescriptor" file="Months_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.TimeUnit_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Now_BehaviorDescriptor" file="Now_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.Instant_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.RelativeTimeConcept_BehaviorDescriptor" file="RelativeTimeConcept_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.DateTimeOperands_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Saturday_BehaviorDescriptor" file="Saturday_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.DayOfWeek_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.SecondValue_BehaviorDescriptor" file="SecondValue_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Value_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Seconds_BehaviorDescriptor" file="Seconds_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.TimeUnit_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Sunday_BehaviorDescriptor" file="Sunday_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.DayOfWeek_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.TemporalExpression_BehaviorDescriptor" file="TemporalExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.TimeCondition_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Thursday_BehaviorDescriptor" file="Thursday_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.DayOfWeek_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.TimeConcept_BehaviorDescriptor" file="TimeConcept_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.TimeCondition_BehaviorDescriptor" file="TimeCondition_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Condition_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.TimeUnit_BehaviorDescriptor" file="TimeUnit_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.TimeValue_BehaviorDescriptor" file="TimeValue_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Value_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Timing_BehaviorDescriptor" file="Timing_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Today_BehaviorDescriptor" file="Today_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.Instant_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Tuesday_BehaviorDescriptor" file="Tuesday_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.DayOfWeek_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Wednesday_BehaviorDescriptor" file="Wednesday_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.DayOfWeek_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.YearValue_BehaviorDescriptor" file="YearValue_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Value_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.DateTime.behavior.Years_BehaviorDescriptor" file="Years_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.DateTime.behavior.TimeUnit_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+</dependenciesRoot>
+

@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="GN.EN.behavior.ActType_BehaviorDescriptor" file="ActType_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Concept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.AdditionSubstractionRule_BehaviorDescriptor" file="AdditionSubstractionRule_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Rule_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Addition_BehaviorDescriptor" file="Addition_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.CalculationExpression_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.BehaviorAspectDescriptor" file="BehaviorAspectDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.ActType_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.AdditionSubstractionRule_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.Addition_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.BinaryFactType_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.Characteristic_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.ClaimDuty_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.ClassifyAssertionAsFact_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.DerivationRule_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.DisabilityImmunity_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.Divide_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.DutyClaim_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.EquationCondition_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.Equation_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.EventRule_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.EventType_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.FactCondition_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.FactInProduct_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.FactRoleRef_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.FactRole_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.Fact_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.GNAmount_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.GNBoolean_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.GNDateTime_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.GNDate_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.GNDouble_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.GNInt_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.GNMonth_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.GNString_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.GNVariable_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.GNYear_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.ImmunityDisability_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.IndividualNounConcept_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.IndividualRoleRef_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.IndividualRole_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.InstantAct_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.IntegerValue_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.InteractionContext_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.IntervalAct_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.IsIndividualOf_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.LargerThan_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.LegalContext_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.LiabilityPower_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.Multiplication_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.N_Ary_FactType_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.NoRightPrivilege_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.Norm_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.ObjectRole_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.Object_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.ParameterTable_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.PowerLiability_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.PrivilegeNoRight_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.ProductInService_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.Product_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.Proposition_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.ReferenceContext_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.RelationExists_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.Service_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.SmallerThan_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.SpecialisationRule_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.StringValue_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.SubjectRole_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.Subject_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.Substraction_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.UniqueConstraint_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.VariableDefinition_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.VariableReference_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.VariableRole_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Arrays" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.interpreted.BehaviorAspectInterpreted" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.BinaryFactType_BehaviorDescriptor" file="BinaryFactType_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.FactType_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.CalculationExpression_BehaviorDescriptor" file="CalculationExpression_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Expression_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Characteristic_BehaviorDescriptor" file="Characteristic_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.FactType_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.ClaimDuty_BehaviorDescriptor" file="ClaimDuty_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Modaloperator_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.ClassifyAssertionAsFact_BehaviorDescriptor" file="ClassifyAssertionAsFact_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Rule_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Comparision_BehaviorDescriptor" file="Comparision_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Condition_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Concept_BehaviorDescriptor" file="Concept_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Condition_BehaviorDescriptor" file="Condition_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Context_BehaviorDescriptor" file="Context_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.DerivationRule_BehaviorDescriptor" file="DerivationRule_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Rule_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.DisabilityImmunity_BehaviorDescriptor" file="DisabilityImmunity_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Modaloperator_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Divide_BehaviorDescriptor" file="Divide_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.CalculationExpression_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.DutyClaim_BehaviorDescriptor" file="DutyClaim_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Modaloperator_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.EquationCondition_BehaviorDescriptor" file="EquationCondition_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Condition_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Equation_BehaviorDescriptor" file="Equation_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Rule_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.EventRule_BehaviorDescriptor" file="EventRule_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Rule_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.EventType_BehaviorDescriptor" file="EventType_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Concept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Expression_BehaviorDescriptor" file="Expression_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.FactCondition_BehaviorDescriptor" file="FactCondition_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Condition_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.FactInProduct_BehaviorDescriptor" file="FactInProduct_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.FactRoleRef_BehaviorDescriptor" file="FactRoleRef_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.FactValue_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.FactRole_BehaviorDescriptor" file="FactRole_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.FactValue_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.FactType_BehaviorDescriptor" file="FactType_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Concept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.FactValue_BehaviorDescriptor" file="FactValue_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Concept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Fact_BehaviorDescriptor" file="Fact_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Proposition_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.GNAmount_BehaviorDescriptor" file="GNAmount_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.GNType_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.GNBoolean_BehaviorDescriptor" file="GNBoolean_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.GNType_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.GNDateTime_BehaviorDescriptor" file="GNDateTime_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.GNType_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.GNDate_BehaviorDescriptor" file="GNDate_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.GNType_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.GNDouble_BehaviorDescriptor" file="GNDouble_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.GNType_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.GNInt_BehaviorDescriptor" file="GNInt_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.GNType_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.GNMonth_BehaviorDescriptor" file="GNMonth_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.GNPeriod_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.GNPeriod_BehaviorDescriptor" file="GNPeriod_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.GNType_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.GNString_BehaviorDescriptor" file="GNString_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.GNType_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.GNType_BehaviorDescriptor" file="GNType_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.GNVariable_BehaviorDescriptor" file="GNVariable_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.GNType_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.GNYear_BehaviorDescriptor" file="GNYear_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.GNPeriod_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.ImmunityDisability_BehaviorDescriptor" file="ImmunityDisability_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Modaloperator_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.IndividualNounConcept_BehaviorDescriptor" file="IndividualNounConcept_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Object_BehaviorDescriptor" />
+    <classNode dependClassName="GN.EN.behavior.Thing_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.IndividualRoleRef_BehaviorDescriptor" file="IndividualRoleRef_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.RoleValue_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.IndividualRole_BehaviorDescriptor" file="IndividualRole_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.RoleValue_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.InstantAct_BehaviorDescriptor" file="InstantAct_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.TypeOfAct_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.IntegerValue_BehaviorDescriptor" file="IntegerValue_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Value_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.InteractionContext_BehaviorDescriptor" file="InteractionContext_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Context_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.IntervalAct_BehaviorDescriptor" file="IntervalAct_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.TypeOfAct_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.IsIndividualOf_BehaviorDescriptor" file="IsIndividualOf_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Rule_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.LargerThan_BehaviorDescriptor" file="LargerThan_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Comparision_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.LegalContext_BehaviorDescriptor" file="LegalContext_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Context_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.LiabilityPower_BehaviorDescriptor" file="LiabilityPower_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Modaloperator_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Modaloperator_BehaviorDescriptor" file="Modaloperator_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Multiplication_BehaviorDescriptor" file="Multiplication_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.CalculationExpression_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.N_Ary_FactType_BehaviorDescriptor" file="N_Ary_FactType_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.FactType_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.NoRightPrivilege_BehaviorDescriptor" file="NoRightPrivilege_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Modaloperator_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Norm_BehaviorDescriptor" file="Norm_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Rule_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.ObjectRole_BehaviorDescriptor" file="ObjectRole_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Role_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Object_BehaviorDescriptor" file="Object_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Concept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.ParameterTable_Behavior" file="ParameterTable_Behavior.java">
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+  </dependency>
+  <dependency className="GN.EN.behavior.ParameterTable_BehaviorDescriptor" file="ParameterTable_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Concept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.PowerLiability_BehaviorDescriptor" file="PowerLiability_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Modaloperator_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.PrivilegeNoRight_BehaviorDescriptor" file="PrivilegeNoRight_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Modaloperator_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.ProductInService_BehaviorDescriptor" file="ProductInService_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Product_BehaviorDescriptor" file="Product_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Proposition_BehaviorDescriptor" file="Proposition_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Concept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.ReferenceContext_BehaviorDescriptor" file="ReferenceContext_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Context_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.RelationExists_BehaviorDescriptor" file="RelationExists_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Condition_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.RoleValue_BehaviorDescriptor" file="RoleValue_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Concept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Role_BehaviorDescriptor" file="Role_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Rule_BehaviorDescriptor" file="Rule_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Service_BehaviorDescriptor" file="Service_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.SmallerThan_BehaviorDescriptor" file="SmallerThan_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Comparision_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.SpecialisationRule_BehaviorDescriptor" file="SpecialisationRule_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Rule_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.StringValue_BehaviorDescriptor" file="StringValue_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Value_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.SubjectRole_BehaviorDescriptor" file="SubjectRole_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Role_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Subject_BehaviorDescriptor" file="Subject_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Concept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Substraction_BehaviorDescriptor" file="Substraction_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.CalculationExpression_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Thing_BehaviorDescriptor" file="Thing_BehaviorDescriptor.java" />
+  <dependency className="GN.EN.behavior.TypeOfAct_BehaviorDescriptor" file="TypeOfAct_BehaviorDescriptor.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.UniqueConstraint_BehaviorDescriptor" file="UniqueConstraint_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Rule_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.Value_BehaviorDescriptor" file="Value_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Expression_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.VariableDefinition_BehaviorDescriptor" file="VariableDefinition_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Concept_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor" />
+    <classNode extendsClassName="java.lang.Cloneable" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.VariableReference_BehaviorDescriptor" file="VariableReference_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Expression_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+  <dependency className="GN.EN.behavior.VariableRole_BehaviorDescriptor" file="VariableRole_BehaviorDescriptor.java">
+    <classNode dependClassName="GN.EN.behavior.Role_BehaviorDescriptor" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode extendsClassName="jetbrains.mps.smodel.runtime.impl.CompiledBehaviorDescriptor" />
+  </dependency>
+</dependenciesRoot>
+

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <root>
+    <file name="AbsoluteInterval_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.AbsoluteInterval_BehaviorDescriptor" />
+    </file>
+    <file name="AbsoluteTimeConcept_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.AbsoluteTimeConcept_BehaviorDescriptor" />
+    </file>
+    <file name="AfterInstant_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.AfterInstant_BehaviorDescriptor" />
+    </file>
+    <file name="AfterInterval_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.AfterInterval_BehaviorDescriptor" />
+    </file>
+    <file name="After_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.After_BehaviorDescriptor" />
+    </file>
+    <file name="BeforeInstant_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.BeforeInstant_BehaviorDescriptor" />
+    </file>
+    <file name="BeforeInterval_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.BeforeInterval_BehaviorDescriptor" />
+    </file>
+    <file name="Before_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Before_BehaviorDescriptor" />
+    </file>
+    <file name="BehaviorAspectDescriptor.java">
+      <unit at="9,0,106,0" name="GN.EN.DateTime.behavior.BehaviorAspectDescriptor" />
+    </file>
+    <file name="Between_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Between_BehaviorDescriptor" />
+    </file>
+    <file name="DateTimeOperands_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.DateTime.behavior.DateTimeOperands_BehaviorDescriptor" />
+    </file>
+    <file name="DateTime_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.DateTime_BehaviorDescriptor" />
+    </file>
+    <file name="DateValue_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.DateTime.behavior.DateValue_BehaviorDescriptor" />
+    </file>
+    <file name="DayOfWeek_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.DateTime.behavior.DayOfWeek_BehaviorDescriptor" />
+    </file>
+    <file name="DayValue_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.DateTime.behavior.DayValue_BehaviorDescriptor" />
+    </file>
+    <file name="Days_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Days_BehaviorDescriptor" />
+    </file>
+    <file name="Duration_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Duration_BehaviorDescriptor" />
+    </file>
+    <file name="During_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.During_BehaviorDescriptor" />
+    </file>
+    <file name="Equal_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Equal_BehaviorDescriptor" />
+    </file>
+    <file name="Friday_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Friday_BehaviorDescriptor" />
+    </file>
+    <file name="HourValue_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.DateTime.behavior.HourValue_BehaviorDescriptor" />
+    </file>
+    <file name="Hours_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Hours_BehaviorDescriptor" />
+    </file>
+    <file name="InstantDateValue_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.InstantDateValue_BehaviorDescriptor" />
+    </file>
+    <file name="InstantOperators_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.InstantOperators_BehaviorDescriptor" />
+    </file>
+    <file name="InstantTiming_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.InstantTiming_BehaviorDescriptor" />
+    </file>
+    <file name="InstantVariable_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.InstantVariable_BehaviorDescriptor" />
+    </file>
+    <file name="Instant_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Instant_BehaviorDescriptor" />
+    </file>
+    <file name="IntervalCondition_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.IntervalCondition_BehaviorDescriptor" />
+    </file>
+    <file name="IntervalTiming_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.IntervalTiming_BehaviorDescriptor" />
+    </file>
+    <file name="IntervalVariable_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.IntervalVariable_BehaviorDescriptor" />
+    </file>
+    <file name="Interval_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Interval_BehaviorDescriptor" />
+    </file>
+    <file name="IsLongerThanOrEqualTo_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.IsLongerThanOrEqualTo_BehaviorDescriptor" />
+    </file>
+    <file name="IsLongerThan_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.IsLongerThan_BehaviorDescriptor" />
+    </file>
+    <file name="IsShorterThanOrEqualTo_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.IsShorterThanOrEqualTo_BehaviorDescriptor" />
+    </file>
+    <file name="IsShorterThan_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.IsShorterThan_BehaviorDescriptor" />
+    </file>
+    <file name="IsTheSameInstantAs_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.IsTheSameInstantAs_BehaviorDescriptor" />
+    </file>
+    <file name="MinuteValue_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.DateTime.behavior.MinuteValue_BehaviorDescriptor" />
+    </file>
+    <file name="Minutes_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Minutes_BehaviorDescriptor" />
+    </file>
+    <file name="Monday_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Monday_BehaviorDescriptor" />
+    </file>
+    <file name="MonthValue_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.DateTime.behavior.MonthValue_BehaviorDescriptor" />
+    </file>
+    <file name="Months_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Months_BehaviorDescriptor" />
+    </file>
+    <file name="Now_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Now_BehaviorDescriptor" />
+    </file>
+    <file name="RelativeTimeConcept_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.RelativeTimeConcept_BehaviorDescriptor" />
+    </file>
+    <file name="Saturday_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Saturday_BehaviorDescriptor" />
+    </file>
+    <file name="SecondValue_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.DateTime.behavior.SecondValue_BehaviorDescriptor" />
+    </file>
+    <file name="Seconds_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Seconds_BehaviorDescriptor" />
+    </file>
+    <file name="Sunday_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Sunday_BehaviorDescriptor" />
+    </file>
+    <file name="TemporalExpression_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.TemporalExpression_BehaviorDescriptor" />
+    </file>
+    <file name="Thursday_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Thursday_BehaviorDescriptor" />
+    </file>
+    <file name="TimeConcept_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.DateTime.behavior.TimeConcept_BehaviorDescriptor" />
+    </file>
+    <file name="TimeCondition_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.DateTime.behavior.TimeCondition_BehaviorDescriptor" />
+    </file>
+    <file name="TimeUnit_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.DateTime.behavior.TimeUnit_BehaviorDescriptor" />
+    </file>
+    <file name="TimeValue_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.DateTime.behavior.TimeValue_BehaviorDescriptor" />
+    </file>
+    <file name="Timing_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.DateTime.behavior.Timing_BehaviorDescriptor" />
+    </file>
+    <file name="Today_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Today_BehaviorDescriptor" />
+    </file>
+    <file name="Tuesday_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Tuesday_BehaviorDescriptor" />
+    </file>
+    <file name="Wednesday_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Wednesday_BehaviorDescriptor" />
+    </file>
+    <file name="YearValue_BehaviorDescriptor.java">
+      <unit at="7,0,15,0" name="GN.EN.DateTime.behavior.YearValue_BehaviorDescriptor" />
+    </file>
+    <file name="Years_BehaviorDescriptor.java">
+      <unit at="6,0,14,0" name="GN.EN.DateTime.behavior.Years_BehaviorDescriptor" />
+    </file>
+  </root>
+</debug-info>
+

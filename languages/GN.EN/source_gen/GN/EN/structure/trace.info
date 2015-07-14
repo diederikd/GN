@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info>
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="13,0,283,0" name="GN.EN.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:55527e27-3a6e-45b6-8da2-ffa919e04435(GN.EN.structure)/538291288743286932">
+    <file name="EditorLanguage.java">
+      <node id="538291288743286932" at="14,0,15,0" concept="2" trace="myName" />
+      <node id="538291288743286932" at="15,27,16,23" concept="6" />
+      <node id="538291288743286932" at="18,36,19,24" concept="6" />
+      <node id="538291288743286932" at="21,53,22,88" concept="5" />
+      <node id="538291288743286932" at="22,88,23,62" concept="1" />
+      <node id="538291288743286932" at="23,62,24,62" concept="1" />
+      <node id="538291288743286932" at="24,62,25,72" concept="1" />
+      <node id="538291288743286932" at="25,72,26,16" concept="6" />
+      <node id="538291288743286932" at="28,45,29,29" concept="6" />
+      <node id="538291288743286932" at="32,24,33,41" concept="6" />
+      <node id="538291288743286932" at="35,61,36,31" concept="6" />
+      <node id="538291288743286932" at="38,61,39,31" concept="6" />
+      <node id="538291288743286932" at="41,71,42,41" concept="6" />
+      <node id="538291288743286932" at="43,5,44,39" concept="6" />
+      <node id="538291288743286932" at="46,0,47,0" concept="2" trace="myValue" />
+      <node id="538291288743286932" at="47,45,48,23" concept="1" />
+      <node id="538291288743286932" at="48,23,49,25" concept="1" />
+      <node id="538291288743286932" at="51,28,52,24" concept="6" />
+      <node id="538291288743286932" at="15,0,18,0" concept="4" trace="getName#()Ljava/lang/String;" />
+      <node id="538291288743286932" at="18,0,21,0" concept="4" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="538291288743286932" at="28,0,31,0" concept="7" trace="getDefault#()LGN/EN/structure/EditorLanguage;" />
+      <node id="538291288743286932" at="31,57,34,5" concept="3" />
+      <node id="538291288743286932" at="34,5,37,5" concept="3" />
+      <node id="538291288743286932" at="37,5,40,5" concept="3" />
+      <node id="538291288743286932" at="40,5,43,5" concept="3" />
+      <node id="538291288743286932" at="51,0,54,0" concept="4" trace="getValue#()Ljava/lang/String;" />
+      <node id="538291288743286932" at="47,0,51,0" concept="0" trace="EditorLanguage#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="538291288743286932" at="21,0,28,0" concept="7" trace="getConstants#()Ljava/util/List;" />
+      <node id="538291288743286932" at="31,0,46,0" concept="7" trace="parseValue#(Ljava/lang/String;)LGN/EN/structure/EditorLanguage;" />
+      <scope id="538291288743286932" at="15,27,16,23" />
+      <scope id="538291288743286932" at="18,36,19,24" />
+      <scope id="538291288743286932" at="28,45,29,29" />
+      <scope id="538291288743286932" at="32,24,33,41" />
+      <scope id="538291288743286932" at="35,61,36,31" />
+      <scope id="538291288743286932" at="38,61,39,31" />
+      <scope id="538291288743286932" at="41,71,42,41" />
+      <scope id="538291288743286932" at="51,28,52,24" />
+      <scope id="538291288743286932" at="47,45,49,25" />
+      <scope id="538291288743286932" at="15,0,18,0" />
+      <scope id="538291288743286932" at="18,0,21,0" />
+      <scope id="538291288743286932" at="28,0,31,0" />
+      <scope id="538291288743286932" at="51,0,54,0" />
+      <scope id="538291288743286932" at="47,0,51,0">
+        <var name="name" id="538291288743286932" />
+        <var name="value" id="538291288743286932" />
+      </scope>
+      <scope id="538291288743286932" at="21,53,26,16">
+        <var name="list" id="538291288743286932" />
+      </scope>
+      <scope id="538291288743286932" at="21,0,28,0" />
+      <scope id="538291288743286932" at="31,57,44,39" />
+      <scope id="538291288743286932" at="31,0,46,0">
+        <var name="value" id="538291288743286932" />
+      </scope>
+      <unit id="538291288743286932" at="9,0,55,0" name="GN.EN.structure.EditorLanguage" />
+    </file>
+    <file name="EditorLanguage_PropertySupport.java">
+      <node id="538291288743286932" at="11,24,12,18" concept="6" />
+      <node id="538291288743286932" at="13,5,14,105" concept="5" />
+      <node id="538291288743286932" at="15,33,16,49" concept="5" />
+      <node id="538291288743286932" at="17,45,18,20" concept="6" />
+      <node id="538291288743286932" at="20,5,21,17" concept="6" />
+      <node id="538291288743286932" at="24,24,25,18" concept="6" />
+      <node id="538291288743286932" at="26,5,27,105" concept="5" />
+      <node id="538291288743286932" at="28,33,29,49" concept="5" />
+      <node id="538291288743286932" at="30,45,31,43" concept="6" />
+      <node id="538291288743286932" at="33,5,34,16" concept="6" />
+      <node id="538291288743286932" at="36,49,37,63" concept="5" />
+      <node id="538291288743286932" at="38,27,39,32" concept="6" />
+      <node id="538291288743286932" at="40,5,41,14" concept="6" />
+      <node id="538291288743286932" at="10,44,13,5" concept="3" />
+      <node id="538291288743286932" at="16,49,19,7" concept="3" />
+      <node id="538291288743286932" at="23,47,26,5" concept="3" />
+      <node id="538291288743286932" at="29,49,32,7" concept="3" />
+      <node id="538291288743286932" at="37,63,40,5" concept="3" />
+      <node id="538291288743286932" at="14,105,20,5" concept="8" />
+      <node id="538291288743286932" at="27,105,33,5" concept="8" />
+      <node id="538291288743286932" at="36,0,43,0" concept="4" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="538291288743286932" at="10,0,23,0" concept="4" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="538291288743286932" at="23,0,36,0" concept="4" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="538291288743286932" at="11,24,12,18" />
+      <scope id="538291288743286932" at="17,45,18,20" />
+      <scope id="538291288743286932" at="24,24,25,18" />
+      <scope id="538291288743286932" at="30,45,31,43" />
+      <scope id="538291288743286932" at="38,27,39,32" />
+      <scope id="538291288743286932" at="15,33,19,7">
+        <var name="constant" id="538291288743286932" />
+      </scope>
+      <scope id="538291288743286932" at="28,33,32,7">
+        <var name="constant" id="538291288743286932" />
+      </scope>
+      <scope id="538291288743286932" at="36,49,41,14">
+        <var name="constant" id="538291288743286932" />
+      </scope>
+      <scope id="538291288743286932" at="36,0,43,0">
+        <var name="value" id="538291288743286932" />
+      </scope>
+      <scope id="538291288743286932" at="10,44,21,17">
+        <var name="constants" id="538291288743286932" />
+      </scope>
+      <scope id="538291288743286932" at="23,47,34,16">
+        <var name="constants" id="538291288743286932" />
+      </scope>
+      <scope id="538291288743286932" at="10,0,23,0">
+        <var name="value" id="538291288743286932" />
+      </scope>
+      <scope id="538291288743286932" at="23,0,36,0">
+        <var name="value" id="538291288743286932" />
+      </scope>
+      <unit id="538291288743286932" at="9,0,44,0" name="GN.EN.structure.EditorLanguage_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:55527e27-3a6e-45b6-8da2-ffa919e04435(GN.EN.structure)/7938561862101297317">
+    <file name="CMD.java">
+      <node id="7938561862101297317" at="14,0,15,0" concept="2" trace="myName" />
+      <node id="7938561862101297317" at="15,27,16,23" concept="6" />
+      <node id="7938561862101297317" at="18,36,19,24" concept="6" />
+      <node id="7938561862101297317" at="21,42,22,66" concept="5" />
+      <node id="7938561862101297317" at="22,66,23,55" concept="1" />
+      <node id="7938561862101297317" at="23,55,24,55" concept="1" />
+      <node id="7938561862101297317" at="24,55,25,55" concept="1" />
+      <node id="7938561862101297317" at="25,55,26,16" concept="6" />
+      <node id="7938561862101297317" at="28,34,29,22" concept="6" />
+      <node id="7938561862101297317" at="32,24,33,30" concept="6" />
+      <node id="7938561862101297317" at="35,54,36,24" concept="6" />
+      <node id="7938561862101297317" at="38,54,39,24" concept="6" />
+      <node id="7938561862101297317" at="41,54,42,24" concept="6" />
+      <node id="7938561862101297317" at="43,5,44,28" concept="6" />
+      <node id="7938561862101297317" at="46,0,47,0" concept="2" trace="myValue" />
+      <node id="7938561862101297317" at="47,34,48,23" concept="1" />
+      <node id="7938561862101297317" at="48,23,49,25" concept="1" />
+      <node id="7938561862101297317" at="51,28,52,24" concept="6" />
+      <node id="7938561862101297317" at="15,0,18,0" concept="4" trace="getName#()Ljava/lang/String;" />
+      <node id="7938561862101297317" at="18,0,21,0" concept="4" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="7938561862101297317" at="28,0,31,0" concept="7" trace="getDefault#()LGN/EN/structure/CMD;" />
+      <node id="7938561862101297317" at="31,46,34,5" concept="3" />
+      <node id="7938561862101297317" at="34,5,37,5" concept="3" />
+      <node id="7938561862101297317" at="37,5,40,5" concept="3" />
+      <node id="7938561862101297317" at="40,5,43,5" concept="3" />
+      <node id="7938561862101297317" at="51,0,54,0" concept="4" trace="getValue#()Ljava/lang/String;" />
+      <node id="7938561862101297317" at="47,0,51,0" concept="0" trace="CMD#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="7938561862101297317" at="21,0,28,0" concept="7" trace="getConstants#()Ljava/util/List;" />
+      <node id="7938561862101297317" at="31,0,46,0" concept="7" trace="parseValue#(Ljava/lang/String;)LGN/EN/structure/CMD;" />
+      <scope id="7938561862101297317" at="15,27,16,23" />
+      <scope id="7938561862101297317" at="18,36,19,24" />
+      <scope id="7938561862101297317" at="28,34,29,22" />
+      <scope id="7938561862101297317" at="32,24,33,30" />
+      <scope id="7938561862101297317" at="35,54,36,24" />
+      <scope id="7938561862101297317" at="38,54,39,24" />
+      <scope id="7938561862101297317" at="41,54,42,24" />
+      <scope id="7938561862101297317" at="51,28,52,24" />
+      <scope id="7938561862101297317" at="47,34,49,25" />
+      <scope id="7938561862101297317" at="15,0,18,0" />
+      <scope id="7938561862101297317" at="18,0,21,0" />
+      <scope id="7938561862101297317" at="28,0,31,0" />
+      <scope id="7938561862101297317" at="51,0,54,0" />
+      <scope id="7938561862101297317" at="47,0,51,0">
+        <var name="name" id="7938561862101297317" />
+        <var name="value" id="7938561862101297317" />
+      </scope>
+      <scope id="7938561862101297317" at="21,42,26,16">
+        <var name="list" id="7938561862101297317" />
+      </scope>
+      <scope id="7938561862101297317" at="21,0,28,0" />
+      <scope id="7938561862101297317" at="31,46,44,28" />
+      <scope id="7938561862101297317" at="31,0,46,0">
+        <var name="value" id="7938561862101297317" />
+      </scope>
+      <unit id="7938561862101297317" at="9,0,55,0" name="GN.EN.structure.CMD" />
+    </file>
+    <file name="CMD_PropertySupport.java">
+      <node id="7938561862101297317" at="11,24,12,18" concept="6" />
+      <node id="7938561862101297317" at="13,5,14,83" concept="5" />
+      <node id="7938561862101297317" at="15,33,16,38" concept="5" />
+      <node id="7938561862101297317" at="17,45,18,20" concept="6" />
+      <node id="7938561862101297317" at="20,5,21,17" concept="6" />
+      <node id="7938561862101297317" at="24,24,25,18" concept="6" />
+      <node id="7938561862101297317" at="26,5,27,83" concept="5" />
+      <node id="7938561862101297317" at="28,33,29,38" concept="5" />
+      <node id="7938561862101297317" at="30,45,31,43" concept="6" />
+      <node id="7938561862101297317" at="33,5,34,16" concept="6" />
+      <node id="7938561862101297317" at="36,49,37,41" concept="5" />
+      <node id="7938561862101297317" at="38,27,39,32" concept="6" />
+      <node id="7938561862101297317" at="40,5,41,14" concept="6" />
+      <node id="7938561862101297317" at="10,44,13,5" concept="3" />
+      <node id="7938561862101297317" at="16,38,19,7" concept="3" />
+      <node id="7938561862101297317" at="23,47,26,5" concept="3" />
+      <node id="7938561862101297317" at="29,38,32,7" concept="3" />
+      <node id="7938561862101297317" at="37,41,40,5" concept="3" />
+      <node id="7938561862101297317" at="14,83,20,5" concept="8" />
+      <node id="7938561862101297317" at="27,83,33,5" concept="8" />
+      <node id="7938561862101297317" at="36,0,43,0" concept="4" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="7938561862101297317" at="10,0,23,0" concept="4" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="7938561862101297317" at="23,0,36,0" concept="4" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="7938561862101297317" at="11,24,12,18" />
+      <scope id="7938561862101297317" at="17,45,18,20" />
+      <scope id="7938561862101297317" at="24,24,25,18" />
+      <scope id="7938561862101297317" at="30,45,31,43" />
+      <scope id="7938561862101297317" at="38,27,39,32" />
+      <scope id="7938561862101297317" at="15,33,19,7">
+        <var name="constant" id="7938561862101297317" />
+      </scope>
+      <scope id="7938561862101297317" at="28,33,32,7">
+        <var name="constant" id="7938561862101297317" />
+      </scope>
+      <scope id="7938561862101297317" at="36,49,41,14">
+        <var name="constant" id="7938561862101297317" />
+      </scope>
+      <scope id="7938561862101297317" at="36,0,43,0">
+        <var name="value" id="7938561862101297317" />
+      </scope>
+      <scope id="7938561862101297317" at="10,44,21,17">
+        <var name="constants" id="7938561862101297317" />
+      </scope>
+      <scope id="7938561862101297317" at="23,47,34,16">
+        <var name="constants" id="7938561862101297317" />
+      </scope>
+      <scope id="7938561862101297317" at="10,0,23,0">
+        <var name="value" id="7938561862101297317" />
+      </scope>
+      <scope id="7938561862101297317" at="23,0,36,0">
+        <var name="value" id="7938561862101297317" />
+      </scope>
+      <unit id="7938561862101297317" at="9,0,44,0" name="GN.EN.structure.CMD_PropertySupport" />
+    </file>
+  </root>
+</debug-info>
+
